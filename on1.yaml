@@ -47,7 +47,7 @@ services:
       region: ${vars.region} # 关于变量的使用方法，可以参考：https://www.serverless-devs.com/serverless-devs/yaml#变量赋值
       service: ${vars.service}
       function:
-        name: "getip"
+        name: "online-getip"
         description: 'Get IP Address'
         runtime: nodejs12
         codeUri: ./
