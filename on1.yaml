@@ -65,9 +65,8 @@ services:
         - domainName: optest22.qkduo.cn
           protocol: HTTP
           routeConfigs:
-            routes:
             - path: /*
-            - qualifier: stable
+            - qualifier: 7
 
 #  next-function: # 第二个函数的案例，仅供参考
 #    # 如果在当前项目下执行 s deploy，会同时部署模块：
