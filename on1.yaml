@@ -62,10 +62,13 @@ services:
             methods:
               - GET
       customDomains:
-        - domainName: optest11.qkduo.cn
+        - domainName: optest22.qkduo.cn
           protocol: HTTP
           routeConfigs:
             - path: /*
+              serviceName: getip
+              functionName: online-getip
+              qualifier: stable
 #  next-function: # 第二个函数的案例，仅供参考
 #    # 如果在当前项目下执行 s deploy，会同时部署模块：
 #    #   helloworld：服务hello-world-service，函数cpp-event-function
