@@ -65,6 +65,7 @@ services:
         - domainName: optest22.qkduo.cn
           protocol: HTTP
           routeConfigs:
+            routes:
             - path: /*
             - qualifier: stable
 
