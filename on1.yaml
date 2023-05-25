@@ -62,7 +62,7 @@ services:
             methods:
               - GET
       customDomains:
-        - domainName: auto
+        - domainName: optest22.qkduo.cn
           protocol: HTTP
           routeConfigs:
             - path: /*
